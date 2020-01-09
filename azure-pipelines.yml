@@ -1,0 +1,37 @@
+schedules:
+- cron: '0 0 * * *'
+  displayName: Schedule build
+  branches:
+    include:
+    - master
+  always: 'true'
+
+strategy:
+  matrix:
+    linux-node-12:
+      imageName: 'ubuntu-latest'
+      nodeVersion: '12.x'
+    macOS-node-12:
+      imageName: 'macOS-latest'
+      nodeVersion: '12.x'
+    windows-2019-node-12:
+      imageName: 'windows-2019'
+      nodeVersion: '12.x'
+    win1803-node-12:
+      imageName: 'win1803'
+      nodeVersion: '12.x'
+
+pool:
+  vmImage: $(imageName)
+
+steps:
+- task: UseNode@1
+  inputs:
+    version: '$(nodeVersion)'
+
+- script: |
+    npm install
+    npm run test
+  env:
+    GITHUB_TOKEN: $(GITHUB_TOKEN)
+    NPM_TOKEN: $(GITHUB_TOKEN)

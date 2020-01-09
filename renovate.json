@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "automerge": true,
+  "rangeStrategy": "bump",
+  "timezone": "Asia/Yangon",
+  "schedule": [
+    "every weekday",
+    "every weekend"
+  ],
+  "packageFiles": [
+    "package.json"
+  ]
+}
