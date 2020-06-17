@@ -16,7 +16,7 @@
     "@dagonmetric/ng-log-applicationinsights": "^2.3.0",
     "@dagonmetric/ng-log-facebook-analytics": "^1.0.1",
     "@dagonmetric/ng-log-firebase-analytics": "^1.0.1",
-    "@dagonmetric/ng-log-gtag": "^2.2.1",
+    "@dagonmetric/ng-log-gtag": "^2.2.3",
     "@dagonmetric/ng-translit": "^14.2.2",
     "rxjs": "^6.5.5",
     "zone.js": "^0.10.3"
