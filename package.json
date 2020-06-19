@@ -11,7 +11,7 @@
     "@dagonmetric/angular-build": "^9.1.1",
     "@dagonmetric/ng-cache": "^2.0.4",
     "@dagonmetric/ng-config": "^4.2.1",
-    "@dagonmetric/ng-config-firebase-remote-config": "^4.2.1",
+    "@dagonmetric/ng-config-firebase-remote-config": "^4.2.2",
     "@dagonmetric/ng-log": "^2.2.5",
     "@dagonmetric/ng-log-applicationinsights": "^2.4.0",
     "@dagonmetric/ng-log-facebook-analytics": "^1.0.2",
