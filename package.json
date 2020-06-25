@@ -9,7 +9,7 @@
     "@angular/common": "^10.0.0",
     "@angular/core": "^10.0.0",
     "@dagonmetric/angular-build": "^10.0.0",
-    "@dagonmetric/ng-cache": "^2.0.5",
+    "@dagonmetric/ng-cache": "^2.0.6",
     "@dagonmetric/ng-config": "^4.2.1",
     "@dagonmetric/ng-config-firebase-remote-config": "^4.2.2",
     "@dagonmetric/ng-log": "^2.2.5",
