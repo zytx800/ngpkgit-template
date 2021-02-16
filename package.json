@@ -19,6 +19,6 @@
     "@dagonmetric/ng-translit": "^14.3.2",
     "lib-tools": "^2.0.4",
     "rxjs": "^6.6.3",
-    "zone.js": "^0.11.3"
+    "zone.js": "^0.11.4"
   }
 }
