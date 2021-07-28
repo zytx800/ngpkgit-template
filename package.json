@@ -18,7 +18,7 @@
     "@dagonmetric/ng-log-gtag": "^2.3.2",
     "@dagonmetric/ng-translit": "^14.3.2",
     "lib-tools": "^2.0.4",
-    "rxjs": "^7.2.0",
+    "rxjs": "^7.3.0",
     "zone.js": "^0.11.4"
   }
 }
