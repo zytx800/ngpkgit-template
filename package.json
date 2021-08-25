@@ -6,8 +6,8 @@
     "test": "echo \"Just testing!\""
   },
   "dependencies": {
-    "@angular/common": "^12.2.2",
-    "@angular/core": "^12.2.2",    
+    "@angular/common": "^12.2.3",
+    "@angular/core": "^12.2.3",    
     "@dagonmetric/ng-cache": "^2.1.2",
     "@dagonmetric/ng-config": "^4.3.2",
     "@dagonmetric/ng-config-firebase-remote-config": "^4.3.2",
